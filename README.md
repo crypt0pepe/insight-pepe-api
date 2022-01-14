@@ -23,6 +23,11 @@ require certain information from the blockchain that pepecoind does not provide.
 ```
   git clone https://github.com/kekdaq/insight-pepe-api && cd insight-pepe-api
 ```
+  To install required pepecore (bitcore replacement), clone the repository:
+```
+  cd insight-pepe-api/node_modules && rm -rf bitcore && git clone https://github.com/crypt0pepe/pepecore bitcore && cd ..
+```
+
   Install dependencies:
 ```
   npm install
